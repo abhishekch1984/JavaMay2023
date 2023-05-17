@@ -8,6 +8,13 @@ public class InstrumentTest {
 		g.play();
 		g.tuneStrings();
 		g.pluck();
+		
+		System.out.println("-------------------------------");
+		
+		flute f = new flute();
+		f.play();
+		f.playMusic();
+		f.playOwn();
 	}
 
 }
@@ -35,3 +42,26 @@ class Guitar extends StringBasedMusicalInstrument {
 		System.out.println("Plicking-----------");
 	}
 }
+
+abstract class AirBasedMusicalInstrument extends MusicalInstrument
+{
+	abstract void playMusic();
+}
+
+class flute extends AirBasedMusicalInstrument
+{
+	void play ()
+	{
+		System.out.println("Fluite is being played by Musical Instrument Abstract Class");
+		
+	}
+	void playMusic ()
+	{
+		System.out.println("Fluite is being played by AirBasedMusicalInstrument abstract class");
+	}
+	void playOwn()
+	{
+		System.out.println("Fluite is being played by its own class");
+	}
+	}
+
