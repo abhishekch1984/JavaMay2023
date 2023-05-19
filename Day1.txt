@@ -1,0 +1,1552 @@
+
+				who
+				|??????
+			---------------------
+			|		|
+			where		when
+			|space		|time - 15 May 2023
+		-----------------------------------
+		|		|		|
+		why		what		how(wow)
+		|reason		|inFORMation	|implementation
+				|Knowledge	| (apply)
+						     |Wisdom
+						-------------
+						|	   |	
+						success<--feedback				
+	1994 - James Gosling
+			Green Project
+				|
+			-------------------
+			|
+			gadget
+
+
+	Fridge	Ovan	Camera	Fan
+	|	|	|	|
+	layer	layer	layer	layer
+	|	|	|	|
+	app	app	app	app
+
+
+	
+	CD-Player1	CD-Player2
+	| Sony		|Hitachi
+	|				
+	CD	
+
+
+
+	
+
+	
+	2023
+
+	
+		brand	set of instructions
+		|	|
+		Java Programming Language
+					|
+			--------------------------------
+			|	|	|	|
+			listen speak   read    writing
+			->	->	->	->
+
+		V	A	K	O	G
+		|	|	|	|	|
+		eye    ear	skin	nose   tounge
+		|	|	  |	|	|
+		visual listening  skin  smell	taste
+
+
+
+
+							M1Chip
+H/w	X86			SPARC	      hpseries  PowerPc	BB	any
+Vendor	Intel			Sun/Oracle	HP	Apple	IBM	any
+OS	Windows			Solaris		HPUX	Mac	AIX	Linux
+	|			|		|	|	|	|
+	#include		#include	
+	calc.cpp <--logic ---> calc.cpp	-->	->	->	->	->
+	|			|		|	|	|	|
+	turboc/VC++		cc		cc	cc	cc	gcc/g++
+	|			|		|	|	|	|
+compile calc.obj		calc.o		calc.o	calc.o	calc.o	calc.o
+	|			|		|	|	|	|
+link	calc.exe ---------------calc.out   calc.out calc.out  calc.out calc.out
+	|			|		|	|	|	 |
+runit	calc		  ./calc.out   ./calc.out ./calc.out  ./calc.out ./calc.out
+
+
+H/w	X86			SPARC	      hpseries  PowerPc	BB	any	new
+Vendor	Intel			Sun/Oracle	HP	Apple	IBM	any	new
+OS	Windows			Solaris		HPUX	Mac	AIX	Linux	new
+	|			|		|	|	|	|
+	calc.java		|		|	|	|	|
+	|			|		|	|	|	|
+	JVM/JRE			JRE		JRE	JRE	JRE	JRE	JRE
+	|			|		|	|	|	|
+compile calc.class		|		|	|	|	|
+	  |			|		|	|	|	|
+interpret calc.class		->		->	->	->	->
+
+	Write Once Run Anywhere
+
+
+
+
+
+-------------------------------------------
+	.java (file must have .java as an extension)
+
+
+	First.java
+	|
+	javac First.java <--- compile it
+	|
+	you would get a .class file(s)!!!
+	|
+	well what would be the name(s) of that/these file
+that depends upon the "class(es) declared" in the .java file
+
+
+
+
+	First.java
+	----------------------
+	class A
+	{
+	}
+	class B { }
+	class C { }
+
+	why do we write a class in java
+
+	- the fundamental unit of programming in JPL
+		is to write a class
+
+	- highly structured language
+
+	----------------
+	javac First.java
+	|
+	A.class | B.class | C.class files are generated
+
+	Which one to run?????
+
+	the class which has main() method is eligible to run
+
+
+	each class can have its own main, 
+
+	how to run???
+
+	java ClassName (without extension)
+
+	java Magician
+	
+
+
+classname cannot have spaces
+first letter must be in capital case
+function name first letter must be small
+
+
+Naming Conventions
+
+
+ClassName	-	SavingsAccount
+			DriverManager
+			FixedDepositAccount
+
+functionName	-	fundTransfer() { }
+			setLookAndFeel() { }
+			calculateRateOfInterest() { }			
+
+fieldnames	-	rollNumber
+variablenames		accountNumber
+			rateOfInterest
+
+CONSTANTS		PI=3.14
+			SPEED_OF_LIGHT=186000.519   miles/sec
+			MAX_RATE_OF_INTEREST
+			MIN_RATE_OF_INTEREST
+
+package names		java.awt.event.*
+			java.lang.*
+			com.sbi.myproject.*
+
+		C:
+		|
+	------------------
+	|
+	myfiles
+	|
+	com
+	|
+	sbi
+	|
+	myproject
+
+
+
+
+
+
+
+
+
+
+  class is a  blueprint	of the object
+	|
+	Fruit	mango; <-- object is the instance of a class
+	Fruit	jackfruit;
+	Fruit   apple;
+	|
+	color
+	size
+	shape
+	cost
+	weight
+
+
+
+
+
+----------------------------------------
+
+
+Functions are of FOUR types
+
+	- purpose of a function
+	- perform a particular task
+	- repeat it
+
+	void dance()
+	{
+	}
+	void withdraw()
+	{
+	}
+
+	returnType  functionName(argument list)
+	{
+		code to do
+		return returnAValue;
+	}
+
+Four types of functions
+
+	1. function "without arguments" 
+				 |
+		void clearScreen(|)
+		 |
+	And "without return"
+
+
+	2. function "with    arguments" 
+				|
+	void gotoLocation(int longitude, int latitude)
+	 |
+But "without return"
+
+
+	3. function "with    arguments" 
+				|	
+	float findAverage(int x, int y, int z)
+	|
+And "with    return"
+
+
+
+	4. function 		"without arguments" 
+					        |
+	float findTheDistanceBetweenSunAndEarth(|) 
+	|
+But "with    return"
+
+	
+
+
+
+
+
+
+
+
+passed by value
+passed by address
+passed by reference
+
+		tantra	"man"tra	yantra
+		|	|		|
+	technology	YOU		computer
+
+
+What is a Class		vs		What is an object
+	|				|
+bluepring of an "object"		instance of a "class"
+design of your object			in the computer memory
+its a vision of your object		with data + functions
+imagination of your object
+
+it is simple text file
+named as .java file
+	LOGICAL				PHYSICAL
+design of a house			actual house
+
+
+		what is an object in real time world
+				|
+		"physical state + behaviour"
+		
+		cat = weight, color, breed, age
+				void meow() { }
+				void snooze() { }
+				void chaseMice() { }
+				void drinkMilk() { }
+
+
+		car = weight, color, type, age
+			numberPlate, model, kmsDriven
+			numberOfGears, turningRadius
+			engineCapacity, currentGear
+			..
+			void changeGear() { }
+			void turnLeft(){ }
+			void turnRight() { }
+			void driveAhead() { }
+			void driveReverse() { }
+			void start(){ }
+			void stop() { }
+			void accelerate() { }
+			void pressTheClutch() { }
+
+		----------------------------
+
+				accountNumber
+				accountType
+				accountHolderName
+				accountHolderPhoneNumber
+				accountHolderAddress
+	bank account object1 =   accountBalance + withdraw() { logic }
+					deposit() { logic }
+
+	bank account object2 =   accountBalance + withdraw() { logic }
+					deposit() { logic }
+	bank account object3 =   accountBalance + withdraw() { logic }
+					deposit() { logic }
+	bank account object4 =   accountBalance + withdraw() { logic }
+					deposit() { logic }
+	...
+	..
+	..
+	..	10000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Bird Eye View Of Java Technology
+
+
+			Java Technology
+			   |
+	-----------------------------------------
+	|		   |			|
+	JSE		  JEE			JME(android)
+	|		   |	
+    standard		enterprise
+    desktop 			|
+    applications	  ---------------
+    Core Java		  |		|
+Simple Java Program	  Web		EJB - IBM WebSphere (WAS)/ Oracle WebLogic
+4 functions		Servlets	|	 DB
+Data Types		JSP	------------------|--------------------
+OOPS Concepts			|Spring		| |		|
+Packages			Session		Entity		Message (JMS|Kafka)
+Exception Handling		|sbi.com	  (Hibernate)	SMS|Mail
+				|airindia.com
+Multithreading		---------------------
+Generics 		|		|
+ Collection f/w		Stateless	Stateful
+File handling - i/o
+JDBC - insert /update/delete
+ select/function/procedure
+
+
+
+
+
+enterprise
+----------------
+1
+2
+3
+4
+5
+6
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1. Abstraction
+  2. Encapsulation
+  3. Polymorphism
+  4. Inheritance
+  5. Object communication
+
+  Association 
+  isA hasA usesA producesA
+
+   class Machine
+	   |isA
+ class ATMMachine extends Machine
+ {
+      CardReader crdReader = new CardReader(); //hasA
+
+	//producesA	 //usesA
+	Statement     withdraw(ATMCard crd, float amt) {
+
+	}	
+
+ }
+
+  
+  class Animal { }
+  class Mammal extends Animal
+  {
+  }
+  class Human extends Mammal
+  {
+      Heart theHeart = new Heart(); //hasA
+      Brain  left  = new Brain();
+      Brain  right = new Brain();
+      Lung lung1 = new Lung();
+      Lung lung2 = new Lung();
+	Kidney k1 = new Kidney();
+
+  }
+
+
+
+
+
+
+
+			Data Types
+			   |
+		--------------------------------
+		|			|
+		Primitive		Secondary
+		|				|
+---------------------------------		--------------
+|	  |  	    |		|		|
+Integral Floating  Character	Boolean		String
+|	  |		|	 |		|
+byte  1  float 4     char 2	boolean 1     "text is here" 
+short 2  double 8
+int   4
+long  8
+
+
+	1 byte = 8 bits
+
+		1 bit = 0
+			1
+
+		2 bits = 
+			0 0
+			0 1
+			1 0 
+			1 1
+
+		3 bits
+
+			0 0 0	0
+			0 0 1	1
+			0 1 0	2
+			0 1 1 	3
+			1 0 0	4
+			1 0 1	5
+			1 1 0	6
+			1 1 1	7
+
+		4 = 16
+		5 = 32
+		6 = 64
+		7 = 128
+		8 = 256
+
+
+
+
+
+class Account
+{
+	FIELD
+	+
+	METHODS (behaviour/functions/activity/process)
+}
+
+class Account
+{
+	int accountNumber;
+	String accountHolderName;
+	double accountBalance;
+
+	void setAccount(int x, String y, double z)
+	{
+		accountNumber=x;
+		accountHolderName=y;
+		accountBalance=z;
+	}	
+	
+}
+
+accObj1.setAccount();
+accObj2.setAccount();
+accObj3.setAccount();
+
+		allocator
+		   |
+Account accObj1 = new Account();
+Account accObj2 = new Account();
+Account accObj3 = new Account();
+	 |		    |	
+	just a reference   constructor 
+	to the object
+
+	STACK				HEAP
+----------------------------------------------------------
+			accountNumber accountHolder accountBalance
+			-------------------------------------------------
+			|	     |		   |			|
+			-------------------------------------------------
+            +----------->100
+	    |
+	+---|---+
+	|100	|
+	+-------+
+	accObj1			
+				METHOD AREA
+				----------------
+				setAccount()
+
+
+			accountNumber accountHolder accountBalance
+			-------------------------------------------------
+			|	     |		   |			|
+			-------------------------------------------------
+            +----------->200
+	    |
+	+---|---+
+	|200	|
+	+-------+
+	accObj2
+
+
+			accountNumber accountHolder accountBalance
+			-------------------------------------------------
+			|	     |		   |			|
+			-------------------------------------------------
+            +----------->300
+	    |
+	+---|---+
+	|300	|
+	+-------+
+	accObj3
+
+
+
+OOPS Concepts
+-------------------
+1. Abstraction
+	- it is the "what is?" part of an object
+	- hiding the details of an object
+		eg. "What is an ATM?"
+			dispense cash/avail cash
+
+		- it hides the complexity of an object
+
+2. Encapsulation
+	- it is the "how is it?" part of an object
+	- coding of that object
+		eg. how is it ATM?
+
+3. Polymorhpism
+
+	- ability of a "business entity" to have many forms
+
+	1. function overloading
+		- we can define a same function as many times
+		as we want provided
+		a) it differ in type of argument
+		b) number of arguments
+		c) sequence of type of arguments
+
+	2. class extension
+	3. operator overloading
+
+		- ability of an operator to appear with
+		different expressions
+
+
+
+
+	
+4. Inheritance
+5. Object communication
+
+
+
+
+
+
+
+
+
+
+
+
+
+java 1.0
+java 2.0
+java 3.0
+java 4.0
+java 5.0
+java 6.0
+java 1.8
+
+
+Class Extention
+
+			     Account <--- generalization
+			        | acno,name,bal
+				| withdraw(),deposit()
+		------------------------------------
+		|		|		|
+	SavingsAcount	CurrentAccount	CreditAccount <--specialization
+	 roi |			odl		crL,cashL
+	------------
+	|
+FixedDepositAccount
+
+			Doctor
+			|
+		--------------------------------
+		|
+		Surgeon
+		|
+	-----------------------------------------
+	|		|		|
+   NeuroSurgeon		HeartSurgeon	OrthoSurgeon
+
+
+		T	E	A	R
+		|	|	|	|
+	   invisible	emotion action	result
+	faster than	|
+	light
+	non-linear
+		
+ 4. Inheritance
+	|
+	ability of a "business entity" to "acquire properties"
+	from "existing business entities"
+
+	a) single level
+
+		A - A is not giving it to B
+		|
+		B <-- B is acquiring from A
+
+		class A extends Object
+		{
+
+		}
+
+		class B extends A {
+
+		}
+
+		Point
+		|isA
+		Point3D
+	
+
+	b) multi level
+		A
+		|
+		B
+		|
+		C
+
+		Point
+		|
+		Point3D
+		|
+		ColouredPoint3D
+
+
+		class C extends B {
+	
+		}
+
+	c) multiple level
+
+		    D
+		    |foo(){}
+		---------
+		|	|
+		A	B
+		|far()	|far();
+		---------
+		    |
+		    C
+
+		class A {		interface B {} interface X { }
+		}			
+
+		class C extends A implements B,X {
+
+		}
+	
+
+
+
+
+
+	4 types of functions based on arguments/return type
+		
+			Association
+			     |
+		---------------------------
+		|	|	|	|
+		isA	hasA	usesA	producesA
+
+		Four types of Functions
+			|
+	-------------------------------------------------
+	|1		|2		|3		|4
+	exclusive	inherited	overridden	implemented
+
+	interface Photography {
+		void zoomIn();
+		void zoomOut();
+	}
+	interface Eating {
+		void eat();
+	}
+	class Person implements Eating {
+		void eat() { }
+	}
+	class Photographer extends Person implements Photography
+	{
+		void click() { }//exclusive 1	
+		public void zoomIn() { } //4
+		public void zoomOut() { } //4
+	}
+	interface Shooting {
+		void record();
+	}
+	class Cinematographer extends Photographer implements Shooting
+	{
+		//click() 2 - is now inherited here - by default
+		void shooting() {//1
+		}
+
+		void click() { //3
+
+		}
+		void record() { //4 
+
+		}	
+	}
+	
+
+		
+
+		Eating
+		|eat();
+		|
+		Person
+		|
+	--------------------------------------------
+	|					|
+	|	 Photography			Student
+	|	  |zoomIn(); zoomOut();		|
+	|	  |				Employee
+	Photographer
+		|	Shooting
+		|	   |
+		Cinematographer
+
+
+	Passing Object as an argument to a function
+	Returning Object as a return value from a function
+
+
+	isA  - aggregation
+
+		Person
+		| hasA PanCard
+		| hasA AdhaarCard
+		| hasA VotingCard
+		|
+		Student
+		| hasA MarkSheet(s)
+		| hasA IdCard
+		|
+		Employee
+		  hasA SalarySlip
+
+
+	hasA - composition
+
+
+
+
+
+
+
+		Stack			Heap
+		- call by value 
+		changePersonalDetails(person1); // 100
+
+					gender 	age	name
+					-----------------------
+					|M	|23	|Jack |
+					-----------------------
+		+--------------------->	100 - it is an address of this
+		|			 |     object
+		|			 |
+		100 <----+               +--------------+
+			 | "value" of person1		|
+		person1<-+				|
+							|
+			   changePersonalDetails(Person x)
+
+
+
+
+
+
+		why		what 		how
+
+	class Cashier
+	{
+		float cashAtHand; //500000
+
+		float dispenseTheCash(float cashDispensed,SavingsAccount x) //proxy for sa1
+		{
+			x.withdraw(cashDispensed); //5000
+			cashAtHand=cashAtHand-cashDispensed;
+			return cashAtHand;
+		}
+	
+	}
+
+
+
+
+
+	class SavingsAccount
+	{
+		void withdraw(float amt) {
+
+		}
+	}
+
+	class MainTest
+	{
+		main()
+		{
+			SavingsAccount sa1 = new SavingsAccount();
+			SavingsAccount sa2 = new SavingsAccount();
+			SavingsAccount sa3 = new SavingsAccount();
+			SavingsAccount sa4 = new SavingsAccount();
+			SavingsAccount sa5 = new SavingsAccount();
+			SavingsAccount sa6 = new SavingsAccount();
+
+			Cashier cashier = new Cashier();
+			cashier.dispenseTheCash(5000.0f,sa1);
+			cashier.dispenseTheCash(6000.0f,sa2);
+			cashier.dispenseTheCash(7000.0f,sa3);
+			cashier.dispenseTheCash(8000.0f,sa4);
+			cashier.dispenseTheCash(9000.0f,sa5);
+			cashier.dispenseTheCash(0000.0f,sa6);
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+		"Sachin Tendulkar"
+
+	class Cricketer
+	{
+		int playerRank;
+		String playerName;
+		int age;
+		int totalRunsMade;
+
+		void hitSixer() {
+
+		}
+		void hitFourRuns() { //verb
+
+		}
+	}
+
+	class Singer
+	{
+		String singerName;
+		int totalSongsSung;
+
+		Song singASong(Lyrics l, Music m) {
+	
+		}		
+	}
+
+	class MusicStudio
+	{
+
+
+		Album recordAlbum(Singer singer) {
+			Song s1 = signer.singASong();
+			Song s2 = signer.singASong();
+			Song s3 = signer.singASong();
+	
+		}
+
+	}
+
+	Cricketer cricketer1 = new Cricketer();
+	cricketer1.playerName="Sachin Tendulkar";
+
+
+	Cricketer cricketer2 = new Cricketer();
+	cricketer2.playerName="Mahendra Singh Dhoni";
+
+
+
+
+	hasA relation - composition
+
+
+	class Heart
+	{
+		void pump() {
+			
+		}
+	}
+
+
+--------------------------------------------------------------
+
+
+			field		method		class
+--------------------------------------------------------------
+static		shared across		to refer
+		all the instances	other static
+		of the class,		members, data
+					or functions
+		class's members
+
+		they are not
+		object's members
+--------------------------------------------------------------
+final		it is a constant	cannot be	cannot 
+		data, PI=3.14		overriden	be subclassed/extended
+--------------------------------------------------------------
+abstract	NA		    partial contract	class cannot be
+				    of a class		instantiated
+				  (method/function
+				   without body)
+--------------------------------------------------------------
+
+
+	abstract class meant for inheritance
+	
+	- it may/may not have abstract methods
+
+	- if it has abstract methods
+		then it is a mandate on the immediate 
+		non-abstract child class to implement these methods
+
+
+
+abstract 		interface
+ - partial		 - pure partial
+
+SunLight		Light
+MoonLight
+TubeLight
+CandleLight
+	
+				MusicalInstrument								MedicalInstrument
+					|play();									|
+	-----------------------------------------------------------------
+	|				|			|
+StringBasedMusicalInstrument	AirBasedMusicalInstrument	DrumBasedMusicalInstrument
+	|tuneString();			|blowAir();			|tuneSurface();
+-------------------------	--------------------------	------------------------
+	|	   |		|	   |	    |		|	|	|
+	Guitar	 Violin		Flute    SaxoPhone Shehnai	Dhol	Tabla	Duff
+	|pluck();   |bowing();	|								
+ElectronicGuitar   Cello	 	
+	
+
+interfaces
+------------------
+
+
+	- pure abstract class
+	- cannot have non-abstract methods
+	
+
+	class A
+	{	
+	}
+	interface B
+	{
+	}
+	interface C
+	{
+	}
+
+	class D extends A implements B,C
+	{
+	}
+
+	A		B	C
+	|extends	|	|
+	------------------------------
+		|implements
+		D
+
+
+
+
+	
+	Sun 
+
+
+	Readable r = new Book();
+	r.read();
+
+	r = new TVScreen();
+	r.read();
+
+	r = new MobileScreen();
+	r.read();
+
+	interface Readable
+	{
+		void read();
+	}
+
+	class TVScreen implements Readable
+	{
+		void read() { }
+	}
+
+	class Book implemnts Readable
+	{
+		void read() { }
+	}
+
+	class MobileScreen implements Readable
+	{
+		void read() { }
+	}
+
+
+
+
+Death of a Diamond
+---------------------
+		Dreaded diamong
+
+
+			Animal
+                          +
+			 / \
+			/   \
+		Bird   <     > Mammal
+		 	\   /
+			 \ /
+			  +
+			 Bat
+
+
+		class Animal
+		{
+			void breathing() { }
+		}
+
+class Bird virtual extends Animal	class Mammal virtual extends Animal
+{				{
+	void fly() { }			void giveBirth() { }
+	void layEggs() { }			
+}				}
+
+	class Bat extends Bird,Mammal {
+		
+	}
+
+	Bird::breathing()
+	Mammal::breathing()
+
+	Bat b = new Bat();
+	b.breathing();
+
+
+		Inheritance is of two types
+				|
+		------------------------------------
+		|				|
+	derivation			implementation
+	|				(abstract/interfaces)
+	|
+	|				interface D { }
+	|				interface C { }
+	class A				class A implements D
+	{				{
+	}				}
+	class B extends A		class B extends A implements C
+	{				{
+	}				}
+			
+
+
+	abstract class D		interface D
+	{				{
+	  abstract void fun();		 	void fun();
+	  void far() { }			void far() { }
+	}				}
+
+
+			Game
+
+	  InDoorGame		OutDoorGame
+		|		   |
+	---------------		-------------
+	|			|
+	Chess			Cricket
+
+
+
+	Drinkable
+
+	Iterative
+
+	Operative
+	
+	The fundamental unit of JPL is a class
+	The fundamental unit of OOPS is a type - interfaces
+
+
+			LivingBeing
+				|
+		----------------------------------
+			|		|
+			Animal		Tree
+			|		|
+		-----------------
+		|	
+		Bird
+		|
+	---------------------
+	|		|
+	FlyingBird	NonFlyingBird
+
+
+
+
+
+
+
+class A
+{
+  int i;
+   void foo() {  
+      B b = new B();
+      b.fun(2002);
+      b.j=20;
+   }
+}
+
+class B 
+{
+   int j;
+
+   A a = new A();
+   void fun(int x) {
+      
+      a.i=10;
+      x=100;
+   }
+   void far() {
+
+   }
+}
+class C
+{
+   main() 
+   {
+	A a = new A();	
+	a.foo();
+	MyMath    m = new MyMath();
+	int sum = m.add(5,6);
+   }
+
+}
+class MyMath
+{
+    Lassi add(Curd i, Sugar j)
+    {
+	int k= i+j;
+	return k;
+    }
+}
+--------------------------------
+
+
+	Packages 	= Simlar to operating system directories
+	|		  or folders
+	|			|
+	|			to organize the files/subfolders
+organize the classes
+
+			java  <-- main package
+			|
+		------------------------------------------
+		|	|	|	 |	|	 |
+		lang	awt	util	 net	jdbc	 io <-- sub-packages/folders
+		|	|	 |	   |	   |	  |
+		System Frame	Collection Socket  Driver File
+		Object Button   List		   ResultSet FileInputStream
+		       Window   LinkedList
+		       Checkbox
+		
+
+			jungle <-- main package
+			 |
+		--------------------------------
+		|	 |	|	|
+		cave	tree	river	house <-- sub packages
+		|	|	 |	   |
+		Tiger  Parrot	Turtle    FarmHouse
+		Lion   Monkey   Fish
+
+
+Tiger.java
+---------------
+package jungle.cave;
+class Tiger
+{
+}
+--------------
+
+Lion.java
+---------------
+package jungle.cave;
+class Lion
+{
+}
+--------------
+	static final abstract - qualifiers
+
+	Access specifiers
+
+		1.         <---- default/same package/within the default package
+		2. private <-- accessible within the class 
+		3. protected <-- accessible/referred by the child/or same package  
+		4. public  <-- accessible to the whole internet
+
+
+----------------------------------------------------------
+Exception 
+Multithreading
+Collections
+Frames/Graphics
+
+
+Exception Handling
+-------------------
+
+		run-time error = exception
+
+			Errors
+			|
+	------------------------------------------
+	|	 |	 |	   |	  | 	
+	syntax	linker  runtime	fatal   logical
+	|        |	  |	    |	    |	
+   compile   missing	 Exception crash    4+4=16
+	     libraries
+
+
+	traditional			new approach - try catch
+	|				|
+	if and else 			try..catch..finally
+	ladder
+
+
+
+
+
+			Throwable
+			  |
+		----------------------------
+		|		|
+		Error		Exception	catch
+		|		|
+	VirtualMachineError	| - checked by the compiler
+	ThreadDeath		|
+		---------------------------------
+		|			|	| 
+	RuntimeException	    IOException SQLException
+		|"unChecked" by the compiler |
+		|		--------------------
+		|		|
+		|	 FileNotFoundException
+		|
+	-------------------------------------------------
+	|	     |		|		|
+NullPointerException |	ArithmeticException  NumberFormatException
+	  IndexOutOfBoundsException
+			|
+	---------------------------------------
+	|			  |
+StringIndexOutOfBoundsException ArrayIndexOutOfBoundsException
+	
+
+
+
+
+
+
+
+	
+	Car
+		shortDrive()		longDrive()
+		|			|
+		OverSpeedException	OverSpeedException
+					FuelException	
+					DocumentException
+						TyrePressureException
+	
+
+	1 - DB			TABLE(s)	
+	2 - POJO		Account Payee Applicant Transfer Statement
+	3 - REPO - DAO		AccountDAO, PayeeDAO, ApplicantDAO
+-----------------------------------------------------
+	4 - SERVICE - FundTransferService
+	5 - CONTROLLER - spring
+	6 - UI - GUI - 	 ANGULAR
+				
+
+							
+
+
+
+
+
+		Collection Framework
+		 
+		
+		Component's Orthogonal Space
+
+
+			X
+			| Data Type --- ButterMilk
+		       / \		Paneer Chilly	
+		      /   \		Pickle
+		     /     \		FriedRice
+		    /       \		 - Book
+	 	   /	     \
+		  Y	I     Z
+	 Container|	|     |Algorithm
+	  |	    Iterator       |
+         Glass          |          |
+	 Plate	      Straw	  drink()
+	 SmallPlate   Fork	  eat()
+		      Finger	  lick()
+		      Spoon	  	
+	   []	    for loop	 just print
+				sorting/searching/compacting
+				
+
+			Iterable
+			  |
+			Collection	<-------------	Map
+			  |				 |K,V
+		---------------------------	  ----------------
+		|			|	  |		|
+		List			Set	TreeMap		HashMap
+		|duplicates		|unique
+	-------------------	-------------------------
+	|		|	|		|	
+	ArrayList  LinkedList	TreeSet	     HashSet
+	|		|	 |		  |hash table
+	PhoneLog  PhoneContact	 ChemicalElements Book
+	
+
+
+	
+			1
+			|
+		----------------------
+		|		|
+				2
+				|
+			     -------------
+			     |		|
+					8
+ 					|
+				-------------------
+						|
+						14
+
+		LDR
+			2
+			|
+		----------------------
+		|		|
+		1		8
+				|
+			     -------------
+			     |		|
+			     3		14
+
+
+		Map = dictionary = key and value pair
+		|
+	-------------------------
+	|		|
+	TreeMap		HashMap
+	K,  V
+	|   |
+	red black
+
+	vishalviniing@gmail.com
+
+JDBC
+------
+java.sql package 
+
+		Java Database Connectivity
+
+
+	FrontEnd			BackEnd
+	|				|
+	Java	--------> Driver <--- Database [ oracle/hsqldb ]
+	|		    |		|
+	Appliation logic    |		Data logic
+			    |
+			    |		Tables/procedures/functions
+			    |
+  hsqldb.jar -->	org.hsqldb.jdbc.JDBCDriver
+
+		1. Know the database [ hsqldb ]
+		2. Know the driver
+			org.hsqldb.jdbc.JDBCDriver			
+		3. Register this driver
+			DriverManager.registerDriver(new org.hsqldb.jdbc.JDBCDriver())
+		4. Connect to the database
+			Connection conn = DriverManager.getConnection(dsn,username,password);
+		5. Make the desired Statement
+			Statement st = conn.createStatement();
+		6. Execute the Statement AND Acquire the Result
+			ResultSet rs = st.executeQuery("SELECT * FROM DEPT");
+		7. Process the result
+		8. close the result, close the statement,
+			close the connection
+	
+
+
+following diagram is NOT of inheritance
+
+ORALCE DRIVER
+C:\app\PC-26\product\18.0.0\dbhomeXE\jdbc\lib\ojdbc8.jar
+					oracle.jdbc.OracleDriver
+
+			Driver
+			| org.hsqldb.jdbc.JDBCDriver
+		 DriverManager
+			| DriverManager.registerDriver(.)
+			| DriverManager.getConnection(...)
+			Connection
+			| conn.createStatement();
+			| conn.prepareStatement();
+			| conn.prepareCallableStatement();
+	-----------------------------------------------
+	|		|			|	
+	Statement	PreparedStatement	CallableStatement
+	SELECT		INSERT/UPDATE/DELETE	Procedure/function
+
+
+
+
+create table dept
+(
+   deptno int primary key,
+   dname varchar(20),
+   loc varchar(20)
+);
+INSERT INTO DEPT VALUES ( 10, 'IT','Mumbai' );
+INSERT INTO DEPT VALUES ( 20, 'SALES','New York' );
+INSERT INTO DEPT VALUES ( 30, 'PURCHASE','Delhi' );
+INSERT INTO DEPT VALUES ( 40, 'QMS','Pune' );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

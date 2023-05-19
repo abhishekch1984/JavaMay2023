@@ -1,0 +1,34 @@
+jdbc:hsqldb:hsql://localhost/xdb
+
+java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 xdb
+
+wifi pwd - MTNL27560149
+
+
+
+DriverManager.registerDriver(new org.hsqldb.jdbc.JDBCDriver());
+			//DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+			
+			System.out.println("Driver loaded....");
+			
+			//System.out.println("Trying to connect to the DB");
+			Connection conn = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/xdb","SA","");
+
+drop Table accountMaster;
+CREATE TABLE accountMaster (accountNo varchar(10), accountName varchar(50), accountBalance double, mobileno varchar(10));
+
+CREATE TABLE fundTransfer (fromaccountNo varchar(10), payeeid int, transferAmount double);
+
+create table payee (payeeid int, payeename varchar(50), payeeacno varchar(10), payeemobileno varchar(10), payeeIFSC varchar(10));
+
+INSERT INTO "PUBLIC"."PAYEE"
+( "PAYEEID", "PAYEENAME", "PAYEEACNO", "PAYEEMOBILENO", "PAYEEIFSC" )
+VALUES (3 , 'Laxman', '857854565', '9922336655', 'SBIN000003');
+
+
+1	Ram	1234567852	9911344788	SBIN000001	SBI1234567
+2	Shyam	1234567890	9911344655	SBIN000002	SBI1234568
+3	Laxman	857854565	9922336655	SBIN000003	SBI1234567
+
+
+create table fundTransferMay23 (fromAcno varchar(10),payeeid int,txnAmount double, txndate date,txnref varchar(50), txnRemarks varchar(50));
